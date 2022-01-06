@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+span{
+    color: #F59560;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+.btn{
+    text-decoration: none;
+    background: #ecb80e;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    align-items: center;
+    width: 1100px;
+}
+.focuse{
+    width: 40%;
+    padding-left: 10%;
+    padding-top:10%;
+    margin-left: 20px;
+}
+.focuse h1{
+    font-size: 80px;
+    font-family: 'Lateef', cursive;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+.focuse p{
+    margin: 40px 0;
+}
+.focuse img{
+    width: 80%;
+    margin-bottom: 50px;
+}
+#mission{
+    margin: 60px 0;
+}
+.mission-items{
+    margin-left: 90px;
+}
+#mission h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+}
+.mission-1{
+    background-color: #2896961e;
+}
+.mission-2{
+    background-color: #ff8c0036;
+}
+.mission-3{
+    background-color: #9932cc25;
+}
+.item {
+    margin-top: 50px;
+    width: 25%;
+    margin-left: 30px;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+.item h3{
+    padding: 20px 0;
+    font-size: 20px;
+}
+.item img {
+    width: 120px;
+}
+.limitless img {
+    width: 85%;
+}
+.limitless {
+    width: 50%;
+}
+.limitless img {
+    width: 85%;
+}
+
+#limitless {
+    display: flex;
+    margin-left: 5px;
+    padding-left: 115px;
+    background-image: url(./images/shapes/shape-1.png);
+    background-size: 220px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.limitless {
+    width: 45%;
+}
+.limitless h2 {
+    line-height: 35px;
+    margin-top: 85px;
+}
+.limitless p {
+    padding: 20px 0;
+}
+
+.community img {
+    width: 85%;
+}
+.community {
+    width: 50%;
+}
+.community img {
+    width: 85%;
+    margin-left: 50px;
+}
+
+#community {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 5px;
+    padding-left: 115px;
+    background-image: url(./images/shapes/shape-1.png);
+    background-size: 220px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.community {
+    width: 45%;
+}
+.community h2 {
+    line-height: 35px;
+    margin-top: 85px;
+}
+.community p {
+    padding: 20px 0;
+}
+.footer{
+    text-align: center;
+    background-color: darkslategray;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+.footer h2{
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+.footer h2 span{
+    color: #ecb80e;
+}
+.footer p{
+    color: white;
+}
