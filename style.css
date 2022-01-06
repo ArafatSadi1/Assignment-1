@@ -8,6 +8,9 @@ span{
 body{
     font-family: 'Inter', sans-serif;
 }
+p{
+    color: #555151;
+}
 .btn{
     text-decoration: none;
     background: #ecb80e;
@@ -37,6 +40,9 @@ body{
     font-family: 'Lateef', cursive;
     line-height: 80px;
     margin-bottom: 20px;
+    border-left: 4px solid #ecb80e;
+    padding-left: 10px;
+    border-radius: 3px;
 }
 .focuse p{
     margin: 40px 0;
