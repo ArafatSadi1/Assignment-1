@@ -21,8 +21,13 @@ body{
     align-items: center;
     width: 1100px;
 }
+#stay-focused{
+    display: flex;
+    align-items: center;
+    width: 1100px;
+}
 .focuse{
-    width: 40%;
+    width: 50%;
     padding-left: 10%;
     padding-top:10%;
     margin-left: 20px;
@@ -37,7 +42,7 @@ body{
     margin: 40px 0;
 }
 .focuse img{
-    width: 80%;
+    width: 100%;
     margin-bottom: 50px;
 }
 #mission{
@@ -45,6 +50,9 @@ body{
 }
 .mission-items{
     margin-left: 90px;
+    display: flex;
+    align-items: center;
+    width: 1100px;
 }
 #mission h1 {
     font-size: 40px;
@@ -74,47 +82,14 @@ body{
 .item img {
     width: 120px;
 }
-.limitless img {
-    width: 85%;
-}
-.limitless {
-    width: 50%;
-}
-.limitless img {
-    width: 85%;
-}
-
 #limitless {
     display: flex;
-    margin-left: 5px;
-    padding-left: 115px;
+    padding-left: 70px;
     background-image: url(./images/shapes/shape-1.png);
     background-size: 220px;
     background-position: left;
     background-repeat: no-repeat;
 }
-.limitless {
-    width: 45%;
-}
-.limitless h2 {
-    line-height: 35px;
-    margin-top: 85px;
-}
-.limitless p {
-    padding: 20px 0;
-}
-
-.community img {
-    width: 85%;
-}
-.community {
-    width: 50%;
-}
-.community img {
-    width: 85%;
-    margin-left: 50px;
-}
-
 #community {
     display: flex;
     margin-top: 60px;
@@ -125,14 +100,19 @@ body{
     background-position: right;
     background-repeat: no-repeat;
 }
-.community {
+.limitless-community {
     width: 45%;
 }
-.community h2 {
+.limitless-community img {
+    width: 85%;
+    margin-left: 50px;
+}
+.limitless-community h2 {
     line-height: 35px;
     margin-top: 85px;
+    font-weight: 700;
 }
-.community p {
+.limitless-community p {
     padding: 20px 0;
 }
 .footer{
